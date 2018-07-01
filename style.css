@@ -1,4 +1,22 @@
 
+.container {
+    padding: 20px;
+}
+
+h2 > a {
+    color: black;
+}
+
+h2 > a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.featurette-image {
+    align-content: center;
+    vertical-align: middle;
+}
+
 #bootstrap-override a.nav-link:hover{
     color: green;
     text-shadow: 2px 2px 4px green;
@@ -14,26 +32,34 @@
     text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
 }
 
-.container {
-    padding: 20px;
-}
-
 #bootstrap-override img.rounded-circle {
     width: 140px;
     height: 140px;
     border: 2px solid #021a40;
 }
 
-h2 > a {
-    color: black;
+#bootstrap-override img.rounded-circle:hover {
+    width: 160px;
+    height: 160px;
+    border: 5px double grey;
 }
 
-h2 > a:hover {
-    text-decoration: none;
-    color: grey;
+.modal-header {
+    padding: 5px;
 }
 
-.featurette-image {
-    align-content: center;
-    vertical-align: middle;
+#signInForm {
+    padding: 0px;
+}
+
+#subscribeModal {
+    padding: 0px;
+}
+
+input.form-control {
+    margin-bottom: 5px;
+}
+
+#genderRadioButtons {
+    text-align: center;
 }
