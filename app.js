@@ -1,0 +1,1 @@
+//$('.carousel').carousel(data-pause'hover');
