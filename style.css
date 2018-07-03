@@ -3,6 +3,7 @@
     padding: 20px;
 }
 
+/* Article headings */
 h2 > a {
     color: black;
 }
@@ -17,6 +18,7 @@ h2 > a:hover {
     vertical-align: middle;
 }
 
+/* Navbar */
 #bootstrap-override a.nav-link:hover{
     color: green;
     text-shadow: 2px 2px 4px green;
@@ -32,6 +34,7 @@ h2 > a:hover {
     text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
 }
 
+/* Rounded images */
 #bootstrap-override img.rounded-circle {
     width: 140px;
     height: 140px;
@@ -44,6 +47,7 @@ h2 > a:hover {
     border: 5px double grey;
 }
 
+/* Modals */
 .modal-header {
     padding: 5px;
 }
@@ -62,4 +66,11 @@ input.form-control {
 
 #genderRadioButtons {
     text-align: center;
+}
+
+/* Media Query - Modal Subscribe */
+@media(max-width: 372px){
+    #genderRadioButtons{
+      text-align:left;
+    }
 }
