@@ -1,2 +1,2 @@
 # 24Kitchen
-This is an individual project whose purpose is to practice HTML, CSS, JavaScript, and jQuery. I have also used Bootstrap and plan to add Ajax and MySQL, too.
+This is a single-page application of a cooking e-book website using HTML, CSS, jQuery, and Bootstrap. Most of the work was done with the help of the Bootstrap framework. Overrides to the Bootstrap styling were done by means of an additional CSS file. Since Bootstrap guarantees website responsiveness, there was little to no need of additional CSS code in this respect. Additionally, I used jQuery and AJAX along with running a live-server in an attempt to link the website to a json file (users.json) for the purposes of subscribing and signing in.
