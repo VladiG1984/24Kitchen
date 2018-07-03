@@ -70,7 +70,7 @@ $(document).ready(function (){
             console.log(data);*/
             var isFound = false;
             var name;
-            $.each(data, function(post, user){
+            $.each(data, function(index, user){
                 if (user.email === email && user.password === password) {
                     name = user.username;
                     isFound = true;
